@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Basics">
+      <UniqueIdentifier>{5b3b7e68-46ad-44b2-a3c8-2776b3b3ee79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Basics">
+      <UniqueIdentifier>{ea6e2394-e8e8-4808-8495-78de5367e675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ressource Source">
+      <UniqueIdentifier>{3fc5b560-efd5-4abf-a8ea-c4c5359cc159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Item Related">
+      <UniqueIdentifier>{7307a1d2-c19a-4def-9dea-520564e99e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Engine Related">
+      <UniqueIdentifier>{47ed8986-436e-4f72-a61f-02d1322f8914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Item Related">
+      <UniqueIdentifier>{6f99dcb1-f87a-46fb-9271-9c8b0c866d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Engine Related">
+      <UniqueIdentifier>{cd00a2cb-ec32-4537-84b6-32ff7e13fac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Ressource Source">
+      <UniqueIdentifier>{2a6567e3-26cf-4695-89b2-17a772c85881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Main">
+      <UniqueIdentifier>{36fc3fa6-ff84-481d-9d86-03a716fc8781}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Player Related">
+      <UniqueIdentifier>{ac2129d5-94a4-4669-a1d7-9419000244f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Player Related">
+      <UniqueIdentifier>{1a94ddc4-4fd5-4225-881e-2f9b58b6f964}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Fichiers sources\Engine Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources\Engine Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSprite.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="basicFuntions.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowRectangle.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchSprite.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Solid.cpp">
+      <Filter>Fichiers sources\Basics</Filter>
+    </ClCompile>
+    <ClCompile Include="Craft.cpp">
+      <Filter>Fichiers sources\Item Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Fichiers sources\Item Related</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemList.cpp">
+      <Filter>Fichiers sources\Item Related</Filter>
+    </ClCompile>
+    <ClCompile Include="RessoucePoint.cpp">
+      <Filter>Fichiers sources\Ressource Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>Fichiers sources\Ressource Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>Fichiers sources\Ressource Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>Fichiers sources\Ressource Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="HoldingObject.cpp">
+      <Filter>Fichiers sources\Player Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources\Player Related</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCraft.cpp">
+      <Filter>Fichiers sources\Player Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Slime.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSlot.cpp">
+      <Filter>Fichiers sources\Item Related</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorMessage.cpp">
+      <Filter>Fichiers sources\Player Related</Filter>
+    </ClCompile>
+    <ClCompile Include="Crate.cpp">
+      <Filter>Fichiers sources\Item Related</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDef.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkPos.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers d%27en-tête\Engine Related</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>Fichiers d%27en-tête\Engine Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSprite.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="basicFuntions.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowRectangle.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Solid.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchSprite.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Fichiers d%27en-tête\Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Fichiers d%27en-tête\Item Related</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemList.h">
+      <Filter>Fichiers d%27en-tête\Item Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Craft.h">
+      <Filter>Fichiers d%27en-tête\Item Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>Fichiers d%27en-tête\Ressource Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>Fichiers d%27en-tête\Ressource Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>Fichiers d%27en-tête\Ressource Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RessourcePoint.h">
+      <Filter>Fichiers d%27en-tête\Ressource Source</Filter>
+    </ClInclude>
+    <ClInclude Include="HoldingObject.h">
+      <Filter>Fichiers d%27en-tête\Player Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers d%27en-tête\Player Related</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCraft.h">
+      <Filter>Fichiers d%27en-tête\Player Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Slime.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Labgamer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemSlot.h">
+      <Filter>Fichiers d%27en-tête\Item Related</Filter>
+    </ClInclude>
+    <ClInclude Include="Crate.h">
+      <Filter>Fichiers d%27en-tête\Item Related</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorMessage.h">
+      <Filter>Fichiers d%27en-tête\Player Related</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDef.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkPos.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
